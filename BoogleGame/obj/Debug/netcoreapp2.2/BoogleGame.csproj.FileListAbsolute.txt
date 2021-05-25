@@ -1,0 +1,14 @@
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.csprojAssemblyReference.cache
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.csproj.CoreCompileInputs.cache
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.RazorAssemblyInfo.cache
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.RazorAssemblyInfo.cs
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.AssemblyInfoInputs.cache
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.AssemblyInfo.cs
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\bin\Debug\netcoreapp2.2\BoogleGame.deps.json
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\bin\Debug\netcoreapp2.2\BoogleGame.runtimeconfig.json
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\bin\Debug\netcoreapp2.2\BoogleGame.runtimeconfig.dev.json
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\bin\Debug\netcoreapp2.2\BoogleGame.dll
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\bin\Debug\netcoreapp2.2\BoogleGame.pdb
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.RazorTargetAssemblyInfo.cache
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.dll
+C:\Users\stucak\source\repos\BoogleGame\BoogleGame\obj\Debug\netcoreapp2.2\BoogleGame.pdb

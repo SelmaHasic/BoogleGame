@@ -1,0 +1,85 @@
+<h1>Boogle Game</h1>
+
+<div  *ngIf="userNamesEntered" id="login">
+  <div class="row">
+    <div class="col-sm-4">
+      <h5>UserName 1: </h5><br />
+      <input type="text" placeholder="Enter UserName" id="usernameFirst" name="usernameFirst" [(ngModel)]="usernameFirst">
+    </div>
+    <div>
+    </div>
+    <div class="col-sm-4">
+      <h5>UserName 2: </h5><br />
+      <input type="text" placeholder="Enter UserName" id="usernameSecond" name="usernameSecond" [(ngModel)]="usernameSecond">
+    </div>
+  </div>
+  <br />
+
+  <div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-2">
+      <button class="btn btn-primary" (click)="submit()">Start game</button>
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+</div>
+
+<div id="game" *ngIf="isGameRunning">
+
+  <div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-3">
+      <table class="table table-sm table-dark" align="center">
+        <tr>
+          <th colspan="2" style="text-align:center;">{{time}}</th>
+        </tr>
+        <tr *ngFor="let item of cubicDice | keyvalue">
+          <td *ngFor="let val of item.value | keyvalue">{{ val.value }}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>{{usernameFirst}}</h3>
+        <input type="text" placeholder="Enter word" id="newWordFirst" [disabled]="isEnabled" name="newWordFirst" [(ngModel)]="newWordFirst"><br /><br />
+        <button class="btn btn-secondary" (click)="addWordFirst()">Submit</button><br /><br />
+        <div *ngFor="let word of allWordsFirst">
+          {{ word }}
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <h3>{{usernameSecond}}</h3>
+        <input type="text" placeholder="Enter word" id="newWordSecond" [disabled]="isEnabled" name="newWordSecond" [(ngModel)]="newWordSecond"><br /><br />
+        <button class="btn btn-secondary" (click)="addWordSecond()">Submit</button><br/><br/>
+        <div *ngFor="let word of allWordsSecond">
+          {{ word }}
+        </div>
+      </div>
+    </div><br />
+    <button class="btn btn-success" (click)="submitResults()">Results</button>
+
+  </div>
+
+<div id="game" *ngIf="isGameFinish">
+  <h3>Results:</h3><br/>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>UserName</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let out of allOut;">
+        <td>{{out.userName}}</td>
+        <td>{{out.score}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

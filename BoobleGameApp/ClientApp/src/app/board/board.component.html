@@ -1,0 +1,28 @@
+<h1>Boogle Game</h1>
+
+<div>
+  <div class="row">
+    <div class="col-sm-4">
+      <label>UserName: </label><br />
+      <input type="text" placeholder="Enter UserName" id="usernameFirst" name="usernameFirst" [(ngModel)]="usernameFirst">>
+    </div>
+    <div>
+    </div>
+    <div class="col-sm-4">
+      <label>UserName: </label><br />
+      <input type="text" placeholder="Enter UserName" id="usernameSecond" name="usernameSecond" [(ngModel)]="usernameSecond">>
+    </div>
+  </div>
+  <br />
+
+  <div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-2">
+      <button class="btn btn-primary" (click)="submit()">Submit</button>
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+</div>
+
